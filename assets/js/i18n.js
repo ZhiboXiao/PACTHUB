@@ -594,6 +594,10 @@
     "zh": "光声断层成像研究",
     "en": "PHOTOACOUSTIC TOMOGRAPHY RESEARCH"
   },
+  "footer.outlook": {
+    "zh": "更多成像系统、更丰富的数据、更多应用场景，将持续汇聚于 PACTHub。",
+    "en": "PACTHub will continue to grow with more imaging systems, richer datasets and new applications."
+  },
   "ui.115": {
     "zh": "返回顶部",
     "en": "Back to top"

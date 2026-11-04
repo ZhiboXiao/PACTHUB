@@ -358,3 +358,8 @@ body .dialog-header,.zoom-header,.workflow-video-header{border-color:#37393a}
 /* Recognizable contact services, aligned with the existing buttons. */
 #contribution-resources .contact-service-link{display:inline-flex;align-items:center;gap:10px}
 #contribution-resources .contact-service-icon{display:block;width:24px;height:24px;flex:0 0 24px;object-fit:contain}
+
+/* A concise outlook at the close of the page. */
+.site-footer .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:24px 48px}
+.site-footer .footer-outlook{margin:0 0 0 auto;max-width:42rem;font-size:clamp(18px,1.65vw,24px);line-height:1.6;color:#d0d6e0;text-align:right;text-wrap:balance}
+@media(max-width:760px){.site-footer .footer-inner{align-items:flex-start;flex-direction:column}.site-footer .footer-outlook{margin-left:0;width:100%;max-width:none;text-align:left;font-size:18px}}
