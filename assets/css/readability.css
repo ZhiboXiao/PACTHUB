@@ -354,3 +354,7 @@ body .dialog-header,.zoom-header,.workflow-video-header{border-color:#37393a}
 }
 /* On phones the playback control is in normal flow, so no reserved CTA space is needed. */
 @media(max-width:600px){.hero.hero-cinematic{padding-bottom:44px}}
+
+/* Recognizable contact services, aligned with the existing buttons. */
+#contribution-resources .contact-service-link{display:inline-flex;align-items:center;gap:10px}
+#contribution-resources .contact-service-icon{display:block;width:24px;height:24px;flex:0 0 24px;object-fit:contain}

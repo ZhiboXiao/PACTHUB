@@ -466,7 +466,29 @@
       }));
     }
     fill('contribution-summary', config.team?.contribution);
-    $('contribution-resources').replaceChildren(resource(t('resource.contribute'), config.team?.contribution_url));
+    const contactLinks = [];
+    const email = typeof config.team?.email === 'string' ? config.team.email.trim() : '';
+    if (/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i.test(email)) {
+      const emailLink = node('a', 'button button-secondary', email);
+      emailLink.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(email);
+      emailLink.target = '_blank';
+      emailLink.rel = 'noopener noreferrer';
+      contactLinks.push(emailLink);
+    }
+    const contributionLink = resource(t('resource.contribute'), config.team?.contribution_url);
+    if (contributionLink.tagName === 'A') contributionLink.target = '_blank';
+    contactLinks.push(contributionLink);
+    contactLinks.forEach((link) => {
+      const icon = node('img', 'contact-service-icon');
+      icon.src = link === contributionLink ? 'assets/images/icons/github.svg' : 'assets/images/icons/gmail.png';
+      icon.alt = '';
+      icon.width = 24;
+      icon.height = 24;
+      icon.setAttribute('aria-hidden', 'true');
+      link.classList.add('contact-service-link');
+      link.prepend(icon);
+    });
+    $('contribution-resources').replaceChildren(...contactLinks);
   }
   async function readJSON(path, embeddedId) {
     const embedded = $(embeddedId);

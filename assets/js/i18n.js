@@ -559,12 +559,12 @@
     "en": "Research team"
   },
   "ui.106": {
-    "zh": "研究团队",
-    "en": "Research team"
+    "zh": "施钧辉团队",
+    "en": "Junhui Shi’s group"
   },
   "ui.107": {
-    "zh": "团队信息待补充。",
-    "en": "Team details will be added here."
+    "zh": "浙江大学",
+    "en": "Zhejiang University"
   },
   "ui.108": {
     "zh": "贡献",
@@ -575,8 +575,8 @@
     "en": "Contact & feedback"
   },
   "ui.110": {
-    "zh": "通过 GitHub Issues 反馈数据和使用问题。",
-    "en": "Share data and usage feedback through GitHub Issues."
+    "zh": "通过电子邮件联系，或在 GitHub Issues 反馈数据和使用问题。",
+    "en": "Contact us by email or share feedback through GitHub Issues."
   },
   "ui.111": {
     "zh": "联系与贡献 · 待补充",

@@ -54,12 +54,24 @@
     "url": null
   },
   "team": {
-    "members": [],
+    "members": [
+      {
+        "name": {
+          "zh": "施钧辉团队",
+          "en": "Junhui Shi’s group"
+        },
+        "affiliation": {
+          "zh": "浙江大学",
+          "en": "Zhejiang University"
+        }
+      }
+    ],
     "contribution": {
-      "zh": "通过 GitHub Issues 反馈数据和使用问题。",
-      "en": "Share data and usage feedback through GitHub Issues."
+      "zh": "通过电子邮件联系，或在 GitHub Issues 反馈数据和使用问题。",
+      "en": "Contact us by email or share feedback through GitHub Issues."
     },
-    "contribution_url": "https://github.com/ZhiboXiao/PACTHub/issues"
+    "contribution_url": "https://github.com/ZhiboXiao/PACTHub/issues",
+    "email": "zhiboxiao2000@gmail.com"
   },
   "hero": {
     "mp4_url": "assets/media/hero-orbit-desktop.mp4?v=20261027-immersive",
