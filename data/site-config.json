@@ -67,8 +67,8 @@
       }
     ],
     "contribution": {
-      "zh": "通过电子邮件联系，或在 GitHub Issues 反馈数据和使用问题。",
-      "en": "Contact us by email or share feedback through GitHub Issues."
+      "zh": "通过电子邮件联系合作。",
+      "en": "Contact us by email for collaboration."
     },
     "contribution_url": "https://github.com/ZhiboXiao/PACTHub/issues",
     "email": "zhiboxiao2000@gmail.com"

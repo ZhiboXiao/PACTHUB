@@ -575,8 +575,8 @@
     "en": "Contact & feedback"
   },
   "ui.110": {
-    "zh": "通过电子邮件联系，或在 GitHub Issues 反馈数据和使用问题。",
-    "en": "Contact us by email or share feedback through GitHub Issues."
+    "zh": "通过电子邮件联系合作。",
+    "en": "Contact us by email for collaboration."
   },
   "ui.111": {
     "zh": "联系与贡献 · 待补充",
