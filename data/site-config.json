@@ -104,11 +104,15 @@
       "metadata_source": "https://zenodo.org/api/records/23496053"
     },
     "paper": {
-      "status": "forthcoming",
-      "title": null,
-      "url": null,
-      "citation": null,
-      "bibtex_file": null
+      "status": "published",
+      "publication_type": "preprint",
+      "title": "PACTHub: a large-scale structured experimental dataset for three-dimensional photoacoustic computed tomography",
+      "url": "https://arxiv.org/abs/2611.18689",
+      "citation": "Xiao Z, Wang X, Huang H, Meng F, Zhou X, Gao X, Xiao Y, Shi J. PACTHub: a large-scale structured experimental dataset for three-dimensional photoacoustic computed tomography. arXiv:2611.18689 (2026). https://doi.org/10.48550/arXiv.2611.18689",
+      "bibtex_file": "assets/citations/pacthub-paper.bib",
+      "doi": "10.48550/arXiv.2611.18689",
+      "publication_date": "2026-11-03",
+      "metadata_source": "https://arxiv.org/abs/2611.18689"
     }
   },
   "dataset_scale": {

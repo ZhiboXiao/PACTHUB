@@ -40,3 +40,11 @@
 @media(max-width:800px){.publications-grid{grid-template-columns:1fr;gap:35px}.publication-card{display:grid;grid-template-columns:minmax(150px,.65fr) minmax(0,1fr);gap:25px;padding-top:24px}.publication-preview{height:315px;padding:22px 18px 33px}.publication-copy{padding-top:0}.publication-copy h3{min-height:0;font-size:18px}.publication-topic{margin-top:14px}.publication-authors{min-height:0}.publication-doi{margin-bottom:15px}.publications-foot{flex-wrap:wrap}}
 @media(max-width:520px){.publication-card{display:flex;gap:0;padding-top:0}.publication-preview{height:300px}.publication-copy{padding-top:22px}.publication-copy h3{font-size:19px}.publication-actions{font-size:11px}.paper-page-dialog{width:calc(100vw - 18px);height:calc(100dvh - 24px)}.paper-page-body{padding:10px}}
 @media(prefers-reduced-motion:reduce){.publication-preview img{transition:none}}
+
+/* Dataset paper leads the related research without narrowing existing cards. */
+@media(min-width:801px){
+  .publications-grid .publication-featured{grid-column:1/-1;display:grid;grid-template-columns:minmax(220px,0.7fr) minmax(0,2fr);gap:36px;padding-block:24px}
+  .publication-featured .publication-copy{padding-top:0}
+  .publication-featured .publication-copy h3{min-height:0}
+  .publication-featured .publication-preview{height:360px}
+}

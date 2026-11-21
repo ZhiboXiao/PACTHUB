@@ -35,7 +35,7 @@
     }
     citation.hidden = false;
     [title, citation, status].forEach(el => el.removeAttribute('data-i18n'));
-    title.textContent = paper.title; citation.textContent = paper.citation; status.textContent = 'arXiv';
+    title.textContent = paper.title; citation.textContent = paper.citation; status.textContent = 'arXiv:2611.18689 · 2026';
     const link = document.createElement('a');
     link.href = safeLink(paper.url); link.target = '_blank'; link.rel = 'noopener noreferrer';
     link.textContent = t('cite.readPaper') + ' ↗'; actions.append(link);

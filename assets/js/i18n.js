@@ -1519,8 +1519,8 @@
     "en": "Using the dataset? Please cite."
   },
   "cite.intro": {
-    "zh": "请引用 Zenodo 数据记录及发布后的数据集论文。",
-    "en": "Please cite the Zenodo record and the dataset paper when available."
+    "zh": "使用本数据集，请同时引用数据集论文和 Zenodo 数据记录。",
+    "en": "Please cite both the dataset paper and the Zenodo data record."
   },
   "cite.data": {
     "zh": "01 / 数据记录",
